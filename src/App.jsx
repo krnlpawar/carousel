@@ -1,9 +1,11 @@
 import './App.css'
+import Carousel from './components/Carousel'
+import data from './data'
 
 function App() {
   return (
     <>
-      <p>Hello world</p>
+      <Carousel slides={data}/>
     </>
   )
 }
